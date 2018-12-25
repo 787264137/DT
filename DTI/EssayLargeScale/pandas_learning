@@ -1,0 +1,64 @@
+/Users/stern/miniconda3/envs/env_rdkit/bin/python /Users/stern/PycharmProjects/Stern/DTI/EssayLargeScale/pandas_learning.py
+查看数据框前几行
+     Drug                                                smi
+0  D00002  NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)...
+1  D00005  Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)...
+2  D00007                            N[C@@H](CCC(=O)O)C(=O)O
+3  D00014     N[C@@H](CCC(=O)N[C@@H](CS)C(=O)NCC(=O)O)C(=O)O
+4  D00018                    O=C1O[C@H]([C@@H](O)CO)C(O)=C1O
+查看数据框的列数
+2
+查看数据框的行数
+445
+查看Series的行数
+445
+获取数据框第0列
+     Drug
+0  D00002
+1  D00005
+2  D00007
+3  D00014
+4  D00018
+获取数据框第1列
+                                                 smi
+0  NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)...
+1  Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)...
+2                            N[C@@H](CCC(=O)O)C(=O)O
+3     N[C@@H](CCC(=O)N[C@@H](CS)C(=O)NCC(=O)O)C(=O)O
+4                    O=C1O[C@H]([C@@H](O)CO)C(O)=C1O
+获取数据框第2行，第1列的值
+D00005
+对于第2行，第1列赋值为AAA,BBB
+AAA
+BBB
+列表转数据框,以行标准写入和以列标准写入或者通过np.array
+   0  1  2  3
+0  1  2  3  4
+1  5  6  7  8
+   a  b
+0  1  5
+1  2  6
+2  3  7
+3  4  8
+   0  1  2  3
+0  1  2  3  4
+1  5  6  7  8
+数据框转列表
+[[1, 2, 3, 4], [5, 6, 7, 8]]
+获取数据框的行索引，列索引
+[0, 1]
+[0, 1, 2, 3]
+合并数据框
+<class 'pandas.core.series.Series'>
+True
+4
+   column1  column2  column3
+0        1        4        3
+1        5        8        7
+Series转DataFrame
+<class 'pandas.core.series.Series'>
+<class 'pandas.core.frame.DataFrame'>
+<type 'list'>
+DataFrame转Series
+
+Process finished with exit code 0

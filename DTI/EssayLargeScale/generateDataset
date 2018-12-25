@@ -1,0 +1,179 @@
+/Users/stern/miniconda3/envs/env_rdkit/bin/python /Users/stern/PycharmProjects/Stern/DTI/EssayLargeScale/generateDataset.py
+总共有3984条药物数据,其中有0条药物结构缺失。
+总共有3984条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+Enzymedecoy2.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Enzyme_p/Enzymedecoy2.xls
+总共有3984条药物数据,其中有0条药物结构缺失。
+总共有3984条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+Enzymedecoy3.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Enzyme_p/Enzymedecoy3.xls
+总共有3984条药物数据,其中有0条药物结构缺失。
+总共有3984条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+Enzymedecoy1.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Enzyme_p/Enzymedecoy1.xls
+总共有3984条药物数据,其中有0条药物结构缺失。
+总共有3984条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+Enzymedecoy10.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Enzyme_p/Enzymedecoy10.xls
+总共有3984条药物数据,其中有0条药物结构缺失。
+总共有3984条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+Enzymedecoy4.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Enzyme_p/Enzymedecoy4.xls
+总共有3984条药物数据,其中有0条药物结构缺失。
+总共有3984条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+Enzymedecoy5.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Enzyme_p/Enzymedecoy5.xls
+总共有3984条药物数据,其中有0条药物结构缺失。
+总共有3984条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+Enzymedecoy7.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Enzyme_p/Enzymedecoy7.xls
+总共有3984条药物数据,其中有0条药物结构缺失。
+总共有3984条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+Enzymedecoy6.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Enzyme_p/Enzymedecoy6.xls
+总共有3984条药物数据,其中有0条药物结构缺失。
+总共有3984条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+Enzymedecoy8.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Enzyme_p/Enzymedecoy8.xls
+总共有3984条药物数据,其中有0条药物结构缺失。
+总共有3984条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+Enzymedecoy9.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Enzyme_p/Enzymedecoy9.xls
+总共有2926条药物数据,其中有0条药物结构缺失。
+总共有2926条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+Enzyme.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Enzyme_p/Enzyme.xls
+总共有1476条药物数据,其中有0条药物结构缺失。
+总共有1476条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+IonChannel.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Ion Channel_p/IonChannel.xls
+总共有2040条药物数据,其中有0条药物结构缺失。
+总共有2040条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+IonChanneldecoy9.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Ion Channel_p/IonChanneldecoy9.xls
+总共有2040条药物数据,其中有0条药物结构缺失。
+总共有2040条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+IonChanneldecoy8.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Ion Channel_p/IonChanneldecoy8.xls
+总共有2040条药物数据,其中有0条药物结构缺失。
+总共有2040条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+IonChanneldecoy10.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Ion Channel_p/IonChanneldecoy10.xls
+总共有2040条药物数据,其中有0条药物结构缺失。
+总共有2040条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+IonChanneldecoy5.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Ion Channel_p/IonChanneldecoy5.xls
+总共有2040条药物数据,其中有0条药物结构缺失。
+总共有2040条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+IonChanneldecoy4.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Ion Channel_p/IonChanneldecoy4.xls
+总共有2040条药物数据,其中有0条药物结构缺失。
+总共有2040条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+IonChanneldecoy6.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Ion Channel_p/IonChanneldecoy6.xls
+总共有2040条药物数据,其中有0条药物结构缺失。
+总共有2040条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+IonChanneldecoy7.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Ion Channel_p/IonChanneldecoy7.xls
+总共有2040条药物数据,其中有0条药物结构缺失。
+总共有2040条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+IonChanneldecoy3.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Ion Channel_p/IonChanneldecoy3.xls
+总共有2040条药物数据,其中有0条药物结构缺失。
+总共有2040条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+IonChanneldecoy2.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Ion Channel_p/IonChanneldecoy2.xls
+总共有2040条药物数据,其中有0条药物结构缺失。
+总共有2040条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+IonChanneldecoy1.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Ion Channel_p/IonChanneldecoy1.xls
+总共有156条药物数据,其中有0条药物结构缺失。
+总共有156条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+NuclearReceptordecoy8.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Nuclear Receptor_p/NuclearReceptordecoy8.xls
+总共有90条药物数据,其中有0条药物结构缺失。
+总共有90条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+NuclearReceptor.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Nuclear Receptor_p/NuclearReceptor.xls
+总共有156条药物数据,其中有0条药物结构缺失。
+总共有156条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+NuclearReceptordecoy9.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Nuclear Receptor_p/NuclearReceptordecoy9.xls
+总共有156条药物数据,其中有0条药物结构缺失。
+总共有156条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+NuclearReceptordecoy10.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Nuclear Receptor_p/NuclearReceptordecoy10.xls
+总共有156条药物数据,其中有0条药物结构缺失。
+总共有156条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+NuclearReceptordecoy2.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Nuclear Receptor_p/NuclearReceptordecoy2.xls
+总共有156条药物数据,其中有0条药物结构缺失。
+总共有156条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+NuclearReceptordecoy3.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Nuclear Receptor_p/NuclearReceptordecoy3.xls
+总共有156条药物数据,其中有0条药物结构缺失。
+总共有156条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+NuclearReceptordecoy1.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Nuclear Receptor_p/NuclearReceptordecoy1.xls
+总共有156条药物数据,其中有0条药物结构缺失。
+总共有156条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+NuclearReceptordecoy4.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Nuclear Receptor_p/NuclearReceptordecoy4.xls
+总共有156条药物数据,其中有0条药物结构缺失。
+总共有156条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+NuclearReceptordecoy5.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Nuclear Receptor_p/NuclearReceptordecoy5.xls
+总共有156条药物数据,其中有0条药物结构缺失。
+总共有156条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+NuclearReceptordecoy7.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Nuclear Receptor_p/NuclearReceptordecoy7.xls
+总共有156条药物数据,其中有0条药物结构缺失。
+总共有156条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+NuclearReceptordecoy6.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/Nuclear Receptor_p/NuclearReceptordecoy6.xls
+总共有950条药物数据,其中有0条药物结构缺失。
+总共有950条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+GPCRdecoy1.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/GPCR_p/GPCRdecoy1.xls
+总共有950条药物数据,其中有0条药物结构缺失。
+总共有950条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+GPCRdecoy3.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/GPCR_p/GPCRdecoy3.xls
+总共有950条药物数据,其中有0条药物结构缺失。
+总共有950条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+GPCRdecoy2.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/GPCR_p/GPCRdecoy2.xls
+总共有950条药物数据,其中有0条药物结构缺失。
+总共有950条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+GPCRdecoy6.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/GPCR_p/GPCRdecoy6.xls
+总共有950条药物数据,其中有0条药物结构缺失。
+总共有950条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+GPCRdecoy7.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/GPCR_p/GPCRdecoy7.xls
+总共有950条药物数据,其中有0条药物结构缺失。
+总共有950条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+GPCRdecoy5.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/GPCR_p/GPCRdecoy5.xls
+总共有950条药物数据,其中有0条药物结构缺失。
+总共有950条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+GPCRdecoy4.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/GPCR_p/GPCRdecoy4.xls
+总共有635条药物数据,其中有0条药物结构缺失。
+总共有635条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+GPCR.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/GPCR_p/GPCR.xls
+总共有950条药物数据,其中有0条药物结构缺失。
+总共有950条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+GPCRdecoy9.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/GPCR_p/GPCRdecoy9.xls
+总共有950条药物数据,其中有0条药物结构缺失。
+总共有950条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+GPCRdecoy8.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/GPCR_p/GPCRdecoy8.xls
+总共有950条药物数据,其中有0条药物结构缺失。
+总共有950条蛋白质数据，其中有0条蛋白质序列缺失。
+==========================
+GPCRdecoy10.xls文件处理完毕，处理后的文件写入到/Users/stern/Desktop/Dataset/LargeScale/mmc1_Processed/GPCR_p/GPCRdecoy10.xls
+
+Process finished with exit code 0
