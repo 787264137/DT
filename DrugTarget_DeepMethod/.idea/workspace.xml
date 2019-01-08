@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e9a2ac9-fb7e-434c-866a-e3018df49742" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/Stern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/DTI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/DrugTarget_DeepMethod.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/EssayLargeScale.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/Drug_smi/.~Enzyme_Drug_Structure.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/Drug_smi/Enzyme_Drug_Structure.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/Drug_smi/GPCR_Drug_Structure.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/Drug_smi/Ion Channel_Drug_Structure.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/Drug_smi/Nuclear Receptor_Drug_Structure.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/drug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/drugLines.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/protein" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/proteinLines.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/protein_hsa/Enzyme_hsa.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/protein_hsa/GPCR_hsa.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/protein_hsa/Ion Channel_hsa.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/DictFile/protein_hsa/Nuclear Receptor_hsa.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/Y" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/drug-drug_similarities_2D.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/drug-target_interaction_affinities_Kd__Davis_et_al.2011v1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/folds/test_fold_setting1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/folds/test_fold_setting2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/folds/test_fold_setting3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/folds/train_fold_setting1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/folds/train_fold_setting2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/folds/train_fold_setting3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/ligands_can.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/ligands_iso.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/proteins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/davis/target-target_similarities_WS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/Y" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/folds/test_fold_setting1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/folds/test_fold_setting2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/folds/test_fold_setting3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/folds/train_fold_setting1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/folds/train_fold_setting2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/folds/train_fold_setting3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/kiba_binding_affinity.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/kiba_binding_affinity_v2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/kiba_drug_sim.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/kiba_ligands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/kiba_proteins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/kiba_target_sim.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/ligands_can.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/ligands_iso.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/proteins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kiba/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Enzyme/Enzyme.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Enzyme/Enzymedecoy1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Enzyme/Enzymedecoy10.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Enzyme/Enzymedecoy2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Enzyme/Enzymedecoy3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Enzyme/Enzymedecoy4.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Enzyme/Enzymedecoy5.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Enzyme/Enzymedecoy6.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Enzyme/Enzymedecoy7.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Enzyme/Enzymedecoy8.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Enzyme/Enzymedecoy9.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/GPCR/GPCR.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/GPCR/GPCRdecoy1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/GPCR/GPCRdecoy10.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/GPCR/GPCRdecoy2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/GPCR/GPCRdecoy3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/GPCR/GPCRdecoy4.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/GPCR/GPCRdecoy5.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/GPCR/GPCRdecoy6.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/GPCR/GPCRdecoy7.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/GPCR/GPCRdecoy8.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/GPCR/GPCRdecoy9.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Ion Channel/IonChannel.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Ion Channel/IonChanneldecoy1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Ion Channel/IonChanneldecoy10.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Ion Channel/IonChanneldecoy2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Ion Channel/IonChanneldecoy3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Ion Channel/IonChanneldecoy4.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Ion Channel/IonChanneldecoy5.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Ion Channel/IonChanneldecoy6.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Ion Channel/IonChanneldecoy7.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Ion Channel/IonChanneldecoy8.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Ion Channel/IonChanneldecoy9.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Nuclear Receptor/NuclearReceptor.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Nuclear Receptor/NuclearReceptordecoy1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Nuclear Receptor/NuclearReceptordecoy10.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Nuclear Receptor/NuclearReceptordecoy2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Nuclear Receptor/NuclearReceptordecoy3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Nuclear Receptor/NuclearReceptordecoy4.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Nuclear Receptor/NuclearReceptordecoy5.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Nuclear Receptor/NuclearReceptordecoy6.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Nuclear Receptor/NuclearReceptordecoy7.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Nuclear Receptor/NuclearReceptordecoy8.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1/Nuclear Receptor/NuclearReceptordecoy9.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/GPCR_p/GPCR.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/GPCR_p/GPCRdecoy1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/GPCR_p/GPCRdecoy10.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/GPCR_p/GPCRdecoy2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/GPCR_p/GPCRdecoy3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/GPCR_p/GPCRdecoy4.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/GPCR_p/GPCRdecoy5.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/GPCR_p/GPCRdecoy6.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/GPCR_p/GPCRdecoy7.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/GPCR_p/GPCRdecoy8.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/GPCR_p/GPCRdecoy9.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/IonChannel_p/IonChannel.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/IonChannel_p/IonChanneldecoy1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/IonChannel_p/IonChanneldecoy10.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/IonChannel_p/IonChanneldecoy2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/IonChannel_p/IonChanneldecoy3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/IonChannel_p/IonChanneldecoy4.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/IonChannel_p/IonChanneldecoy5.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/IonChannel_p/IonChanneldecoy6.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/IonChannel_p/IonChanneldecoy7.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/IonChannel_p/IonChanneldecoy8.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mmc1_Processed/IonChannel_p/IonChanneldecoy9.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/auc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/basic_dti_classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/datahelper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/generateVocabDict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/model_cnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DTI__classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/basic_text_classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/cnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/xlrd_learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/Y" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/drug-drug_similarities_2D.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/drug-target_interaction_affinities_Kd__Davis_et_al.2011v1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/folds/test_fold_setting1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/folds/test_fold_setting2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/folds/test_fold_setting3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/folds/train_fold_setting1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/folds/train_fold_setting2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/folds/train_fold_setting3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/ligands_can.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/ligands_iso.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/proteins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/davis/target-target_similarities_WS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/Y" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/folds/test_fold_setting1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/folds/test_fold_setting2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/folds/test_fold_setting3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/folds/train_fold_setting1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/folds/train_fold_setting2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/folds/train_fold_setting3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/kiba_binding_affinity.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/kiba_binding_affinity_v2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/kiba_drug_sim.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/kiba_ligands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/kiba_proteins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/kiba_target_sim.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/ligands_can.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/ligands_iso.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/kiba/proteins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/data/vec/drug.chembl.canon.l1.ws20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/docs/figures/deepdta.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/docs/figures/screenshot1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/source/arguments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/source/auc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/source/datahelper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/source/emetrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/source/go.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DeepDTA-master/source/run_experiments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../git 操作" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../leetcode/hash/寻找重复的子树.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/hash/寻找重复的子树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../leetcode/hash/常数级的插入、删除、随机获取.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/hash/常数级的插入、删除、随机获取.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../leetcode/hash/查无重复子串的最长字符.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/hash/查无重复子串的最长字符.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../leetcode/二分/二分.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/二分/二分.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../leetcode/二分/寻找峰值元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/二分/寻找峰值元素.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="667280490">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="82" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="82" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1992679882">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="24" />
+          <entry key="txt" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="463" />
+          <entry key="py" value="1669" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2132" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/model_cnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="296" column="42" lean-forward="true" selection-start-line="296" selection-start-column="42" selection-end-line="296" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/datahelper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/basic_dti_classification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="94" column="21" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="21" />
+              <folding>
+                <element signature="e#15#27#0" expanded="true" />
+                <element signature="e#523#587#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/metrics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>train set</find>
+      <find>read_dataset</find>
+      <find>data_6_folds</find>
+      <find>正样本有</find>
+      <find>DataSet</find>
+      <find>general_nfold_cv</find>
+      <find>df</find>
+      <find>MAX_SEQ_LEN</find>
+      <find>charsmiset_size</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sources/model_cnn.py" />
+        <option value="$PROJECT_DIR$/test/pandas_learning.py" />
+        <option value="$PROJECT_DIR$/source/metrics.py" />
+        <option value="$PROJECT_DIR$/source/datahelper.py" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/test/basic_text_classification.py" />
+        <option value="$PROJECT_DIR$/test/basic_dti_classification.py" />
+        <option value="$PROJECT_DIR$/source/model_cnn.py" />
+        <option value="$PROJECT_DIR$/source/basic_dti_classification.py" />
+        <option value="$PROJECT_DIR$/source/utils.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DrugTarget_DeepMethod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DrugTarget_DeepMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DrugTarget_DeepMethod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DrugTarget_DeepMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DrugTarget_DeepMethod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DrugTarget_DeepMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="mmc1_Processed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DrugTarget_DeepMethod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DrugTarget_DeepMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DrugTarget_DeepMethod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DrugTarget_DeepMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/sources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.basic_dti_classification">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="DrugTarget_DeepMethod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="basic_dti_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EssayLargeScale" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/basic_dti_classification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="basic_text_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EssayLargeScale" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/basic_text_classification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="datahelper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EssayLargeScale" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/datahelper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EssayLargeScale" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/env_py3/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/model_cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pandas_learning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EssayLargeScale" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/pandas_learning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="DrugTarget_DeepMethod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="DrugTarget_DeepMethod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="DrugTarget_DeepMethod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="DrugTarget_DeepMethod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="DrugTarget_DeepMethod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="DrugTarget_DeepMethod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.model_cnn" />
+      <item itemvalue="Python.datahelper" />
+      <item itemvalue="Python.pandas_learning" />
+      <item itemvalue="Python.basic_text_classification" />
+      <item itemvalue="Python.basic_dti_classification" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.basic_dti_classification" />
+        <item itemvalue="Python.model_cnn" />
+        <item itemvalue="Python.basic_text_classification" />
+        <item itemvalue="Python.datahelper" />
+        <item itemvalue="Python.pandas_learning" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e9a2ac9-fb7e-434c-866a-e3018df49742" name="Default Changelist" comment="" />
+      <created>1546858464573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546858464573</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12427594" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3188119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4960396" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32871288" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source/model_cnn.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sources/model_cnn.py" />
+    <entry file="file://$PROJECT_DIR$/sources/datahelper.py" />
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/site-packages/pandas/core/reshape/concat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="285" selection-start-line="285" selection-end-line="285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/site-packages/pandas/core/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="1970" selection-start-line="1970" selection-end-line="1970" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/site-packages/pandas/core/indexes/multi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-853">
+          <caret line="1669" column="8" selection-start-line="1669" selection-start-column="8" selection-end-line="1669" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="3092" column="55" selection-start-line="3092" selection-start-column="48" selection-end-line="3092" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/site-packages/tensorflow/python/ops/gen_math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="1009" selection-start-line="1009" selection-end-line="1009" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="270" selection-start-line="270" selection-end-line="270" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="972" selection-start-line="972" selection-end-line="972" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/site-packages/keras/optimizers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="504" selection-start-line="504" selection-end-line="504" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pandas_learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="161" column="25" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2521">
+          <caret line="2079" column="8" selection-start-line="2079" selection-start-column="8" selection-end-line="2079" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/env_py3/lib/python3.6/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="825" selection-start-line="825" selection-end-line="825" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/basic_text_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
+          <folding>
+            <element signature="e#15#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/datahelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tmp/1546657060.440115/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tmp/1546658379.456275/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tmp/1546871830.237072/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tmp/1546945474.1273322/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/basic_dti_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#27#0" expanded="true" />
+            <element signature="e#523#587#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/model_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="296" column="42" lean-forward="true" selection-start-line="296" selection-start-column="42" selection-end-line="296" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

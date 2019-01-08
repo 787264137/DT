@@ -1,0 +1,2 @@
+Namespace(batch_size=256, binary_threshold=0.0, checkpoint_path='../data/ckp/', dataset_path='../data/mmc1_Processed/', fig_dir='../data/figures/', learning_rate=0.001, log_dir='../data/tmp/1546945980.413645/', max_seq_len=500, max_smi_len=50, num_classes=0, num_epoch=100, num_windows=[32, 64, 96, 128, 160, 192, 224, 256, 288, 320, 352, 384, 416, 448, 480, 512], seq_window_lengths=[4, 8, 12], setting_no=1, smi_window_lengths=[4, 8, 12])
+---Parameter Search-----

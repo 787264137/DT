@@ -1,0 +1,74 @@
+/Users/stern/miniconda3/envs/env_py3/bin/python3.6 /Users/stern/PycharmProjects/Stern/DTI/EssayLargeScale/source/model_cnn.py
+Using TensorFlow backend.
+2019-01-05 10:57:40.432935: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-05 10:57:40.432978: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-05 10:57:40.433025: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-05 10:57:40.433093: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-05 10:57:40.433147: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Namespace(batch_size=256, binary_threshold=0.0, checkpoint_path='/ckp/', dataset_path='../data/kiba/', fig_dir='../data/figures/', learning_rate=0.001, log_dir='../data/tmp/1546657060.440115/', max_seq_len=1000, max_smi_len=100, num_classes=0, num_epoch=100, num_hidden=0, num_windows=[100, 200, 100], problem_type=1, seq_window_lengths=[4, 8, 12], smi_window_lengths=[4, 8, 23])
+Reading ../data/kiba/ start
+Read ../data/kiba/ start
+2111
+229
+../data/tmp/1546657060.440115/
+Reading ../data/kiba/ start
+val set 19709
+train set 78836
+val set 19709
+train set 78836
+val set 19709
+train set 78836
+val set 19709
+train set 78836
+val set 19709
+train set 78836
+---Parameter Search-----
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to
+==================================================================================================
+input_1 (InputLayer)            (None, 100)          0
+__________________________________________________________________________________________________
+input_2 (InputLayer)            (None, 1000)         0
+__________________________________________________________________________________________________
+embedding_1 (Embedding)         (None, 100, 128)     8320        input_1[0][0]
+__________________________________________________________________________________________________
+embedding_2 (Embedding)         (None, 1000, 128)    3328        input_2[0][0]
+__________________________________________________________________________________________________
+conv1d_1 (Conv1D)               (None, 97, 100)      51300       embedding_1[0][0]
+__________________________________________________________________________________________________
+conv1d_4 (Conv1D)               (None, 997, 100)     51300       embedding_2[0][0]
+__________________________________________________________________________________________________
+conv1d_2 (Conv1D)               (None, 94, 200)      80200       conv1d_1[0][0]
+__________________________________________________________________________________________________
+conv1d_5 (Conv1D)               (None, 994, 200)     80200       conv1d_4[0][0]
+__________________________________________________________________________________________________
+conv1d_3 (Conv1D)               (None, 91, 300)      240300      conv1d_2[0][0]
+__________________________________________________________________________________________________
+conv1d_6 (Conv1D)               (None, 991, 300)     240300      conv1d_5[0][0]
+__________________________________________________________________________________________________
+global_max_pooling1d_1 (GlobalM (None, 300)          0           conv1d_3[0][0]
+__________________________________________________________________________________________________
+global_max_pooling1d_2 (GlobalM (None, 300)          0           conv1d_6[0][0]
+__________________________________________________________________________________________________
+concatenate_1 (Concatenate)     (None, 600)          0           global_max_pooling1d_1[0][0]
+                                                                 global_max_pooling1d_2[0][0]
+__________________________________________________________________________________________________
+dense_1 (Dense)                 (None, 1024)         615424      concatenate_1[0][0]
+__________________________________________________________________________________________________
+dropout_1 (Dropout)             (None, 1024)         0           dense_1[0][0]
+__________________________________________________________________________________________________
+dense_2 (Dense)                 (None, 1024)         1049600     dropout_1[0][0]
+__________________________________________________________________________________________________
+dropout_2 (Dropout)             (None, 1024)         0           dense_2[0][0]
+__________________________________________________________________________________________________
+dense_3 (Dense)                 (None, 512)          524800      dropout_2[0][0]
+__________________________________________________________________________________________________
+dense_4 (Dense)                 (None, 1)            513         dense_3[0][0]
+==================================================================================================
+Total params: 2,945,585
+Trainable params: 2,945,585
+Non-trainable params: 0
+__________________________________________________________________________________________________
+None
+Train on 78836 samples, validate on 19709 samples

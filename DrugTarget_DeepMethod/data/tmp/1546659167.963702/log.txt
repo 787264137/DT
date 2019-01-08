@@ -1,0 +1,2 @@
+Namespace(batch_size=256, binary_threshold=0.0, checkpoint_path='/ckp/', dataset_path='../data/kiba/', fig_dir='../data/figures/', learning_rate=0.001, log_dir='../data/tmp/1546659167.963702/', max_seq_len=1000, max_smi_len=100, num_classes=0, num_epoch=100, num_hidden=0, num_windows=[100, 200, 300], problem_type=1, seq_window_lengths=[4, 8, 12], smi_window_lengths=[4, 8, 12])
+---Parameter Search-----

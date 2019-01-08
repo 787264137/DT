@@ -1,0 +1,11 @@
+folds里面是训练集和测试集
+其中测试集对于每一个number，一个json文件只存了一个test
+其中训练集对于每一个number，一个json文件存了5个train
+
+ligands_iso.txt是ISO表示的药物结构的，key为'CHEMBL1087421'，
+value为'COC1=C(C=C2C(=C1)CCN=C2C3=CC(=C(C=C3)Cl)Cl)Cl'的词典文件
+长度为2111，也就是有2111个药物
+
+proteins.txt是蛋白质序列词典文件
+key为蛋白质ID，value为蛋白质对应ID的序列
+长度为229，也就是有229个药物
